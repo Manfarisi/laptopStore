@@ -8,7 +8,7 @@ Aplikasi e-commerce toko laptop berbasis web yang dibangun dengan stack Laravel 
 <img width="1366" height="768" alt="Screenshot (1002)" src="https://github.com/user-attachments/assets/b352150a-2117-4ef2-b630-79538ca69c7c" />
 <img width="1366" height="768" alt="Screenshot (1001)" src="https://github.com/user-attachments/assets/26f0c838-9865-49bc-b5dd-8675b1f7f5d0" />
 <img width="1366" height="768" alt="Screenshot (1000)" src="https://github.com/user-attachments/assets/0d47543c-f9d3-433c-b89a-ed929b50760d" />
-<img width="1366" height="768" alt="Screenshot (999)" src="https://github.com/user-attachments/assets/e80e74c3-b6d9-4054-9d4d-272acd5914e7" />
+
 
 
 
