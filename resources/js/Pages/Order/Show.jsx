@@ -67,12 +67,12 @@ export default function OrderShow({ order, auth, flash, cartCount = 0 }) {
                             </p>
                         </div>
                     ) : (
-                        <div className="bg-green-500 rounded-2xl p-8 text-center text-white mb-6">
+                        <div className="bg-indigo-500 rounded-2xl p-8 text-center text-white mb-6">
                             <div className="text-5xl mb-3">🎉</div>
                             <h1 className="text-2xl font-bold mb-1">
                                 Pembayaran Berhasil!
                             </h1>
-                            <p className="text-green-100 text-sm">
+                            <p className="text-indigo-100 text-sm">
                                 Terima kasih telah berbelanja di LaptopStore
                             </p>
                         </div>
@@ -139,7 +139,7 @@ export default function OrderShow({ order, auth, flash, cartCount = 0 }) {
                             </div>
                             <div className="flex justify-between text-sm">
                                 <span className="text-gray-500">Total</span>
-                                <span className="font-bold text-green-600 text-base">
+                                <span className="font-bold text-indigo-600 text-base">
                                     Rp{" "}
                                     {Number(order.total_price).toLocaleString(
                                         "id-ID",
@@ -236,7 +236,7 @@ export default function OrderShow({ order, auth, flash, cartCount = 0 }) {
                             <span className="text-sm font-bold text-gray-700">
                                 Total
                             </span>
-                            <span className="text-sm font-bold text-green-600">
+                            <span className="text-sm font-bold text-indigo-600">
                                 Rp{" "}
                                 {Number(order.total_price).toLocaleString(
                                     "id-ID",
@@ -255,7 +255,7 @@ export default function OrderShow({ order, auth, flash, cartCount = 0 }) {
                         </Link>
                         <Link
                             href="/orders"
-                            className="flex-1 bg-green-500 text-white py-3 rounded-full text-sm font-bold text-center hover:bg-green-600 transition"
+                            className="flex-1 bg-indigo-500 text-white py-3 rounded-full text-sm font-bold text-center hover:bg-indigo-600 transition"
                         >
                             Lihat Semua Pesanan
                         </Link>

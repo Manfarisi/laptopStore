@@ -120,7 +120,7 @@ export default function ShopIndex({
                             <select
                                 value={currentSort}
                                 onChange={(e) => handleSort(e.target.value)}
-                                className="border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-green-400 bg-white"
+                                className="border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-400 bg-white"
                             >
                                 <option value="">Terbaru</option>
                                 <option value="price_asc">Harga Terendah</option>
@@ -132,7 +132,7 @@ export default function ShopIndex({
                                 onClick={() => setShowFilter(!showFilter)}
                                 className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium border transition ${
                                     showFilter
-                                        ? "bg-green-500 text-white border-green-500"
+                                        ? "bg-indigo-500 text-white border-indigo-500"
                                         : "bg-white text-gray-600 border-gray-300 hover:bg-gray-50"
                                 }`}
                             >
@@ -153,11 +153,11 @@ export default function ShopIndex({
                             value={search}
                             onChange={(e) => setSearch(e.target.value)}
                             placeholder="Cari laptop..."
-                            className="flex-1 border border-gray-300 rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-green-400 bg-white"
+                            className="flex-1 border border-gray-300 rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-400 bg-white"
                         />
                         <button
                             type="submit"
-                            className="bg-green-500 text-white px-5 py-2 rounded-lg text-sm font-medium hover:bg-green-600 transition"
+                            className="bg-indigo-500 text-white px-5 py-2 rounded-lg text-sm font-medium hover:bg-indigo-600 transition"
                         >
                             Cari
                         </button>
@@ -187,7 +187,7 @@ export default function ShopIndex({
                                                 onClick={() => handleCategory("")}
                                                 className={`text-left text-sm px-3 py-2 rounded-lg transition ${
                                                     !currentFilters.category
-                                                        ? "bg-green-50 text-green-700 font-semibold"
+                                                        ? "bg-indigo-50 text-indigo-700 font-semibold"
                                                         : "text-gray-600 hover:bg-gray-50"
                                                 }`}
                                             >
@@ -199,7 +199,7 @@ export default function ShopIndex({
                                                     onClick={() => handleCategory(cat.slug)}
                                                     className={`text-left text-sm px-3 py-2 rounded-lg transition ${
                                                         currentFilters.category === cat.slug
-                                                            ? "bg-green-50 text-green-700 font-semibold"
+                                                            ? "bg-indigo-50 text-indigo-700 font-semibold"
                                                             : "text-gray-600 hover:bg-gray-50"
                                                     }`}
                                                 >
@@ -236,7 +236,7 @@ export default function ShopIndex({
                                                     }}
                                                     className={`text-left text-sm px-3 py-2 rounded-lg transition ${
                                                         minPrice == range.min && maxPrice == range.max
-                                                            ? "bg-green-50 text-green-700 font-semibold"
+                                                            ? "bg-indigo-50 text-indigo-700 font-semibold"
                                                             : "text-gray-600 hover:bg-gray-50"
                                                     }`}
                                                 >
@@ -257,18 +257,18 @@ export default function ShopIndex({
                                                 value={minPrice}
                                                 onChange={(e) => setMinPrice(e.target.value)}
                                                 placeholder="Min (Rp)"
-                                                className="w-full border border-gray-300 rounded-lg px-3 py-2 text-xs focus:outline-none focus:ring-2 focus:ring-green-400"
+                                                className="w-full border border-gray-300 rounded-lg px-3 py-2 text-xs focus:outline-none focus:ring-2 focus:ring-indigo-400"
                                             />
                                             <input
                                                 type="number"
                                                 value={maxPrice}
                                                 onChange={(e) => setMaxPrice(e.target.value)}
                                                 placeholder="Max (Rp)"
-                                                className="w-full border border-gray-300 rounded-lg px-3 py-2 text-xs focus:outline-none focus:ring-2 focus:ring-green-400"
+                                                className="w-full border border-gray-300 rounded-lg px-3 py-2 text-xs focus:outline-none focus:ring-2 focus:ring-indigo-400"
                                             />
                                             <button
                                                 type="submit"
-                                                className="w-full bg-green-500 text-white py-2 rounded-lg text-xs font-semibold hover:bg-green-600 transition"
+                                                className="w-full bg-indigo-500 text-white py-2 rounded-lg text-xs font-semibold hover:bg-indigo-600 transition"
                                             >
                                                 Terapkan
                                             </button>
@@ -288,8 +288,8 @@ export default function ShopIndex({
                                         onClick={() => handleCategory(cat.slug)}
                                         className={`px-4 py-1.5 rounded-full text-xs font-medium transition ${
                                             currentFilters.category === cat.slug
-                                                ? "bg-green-500 text-white"
-                                                : "bg-white text-gray-600 border border-gray-200 hover:border-green-400 hover:text-green-600"
+                                                ? "bg-indigo-500 text-white"
+                                                : "bg-white text-gray-600 border border-gray-200 hover:border-indigo-400 hover:text-indigo-600"
                                         }`}
                                     >
                                         {cat.name}
@@ -302,7 +302,7 @@ export default function ShopIndex({
                                 <div className="flex items-center gap-2 mb-4 text-sm text-gray-500 bg-white rounded-lg px-4 py-2 border border-gray-200">
                                     <span>Filter aktif:</span>
                                     {currentFilters.category && (
-                                        <span className="bg-green-100 text-green-700 px-2 py-0.5 rounded text-xs font-medium">
+                                        <span className="bg-indigo-100 text-indigo-700 px-2 py-0.5 rounded text-xs font-medium">
                                             {currentFilters.category}
                                         </span>
                                     )}
@@ -327,7 +327,7 @@ export default function ShopIndex({
                                 <div className="bg-white rounded-xl p-16 text-center">
                                     <div className="text-4xl mb-3">😔</div>
                                     <p className="text-gray-500 font-medium">Produk tidak ditemukan</p>
-                                    <button onClick={resetFilters} className="mt-4 text-green-600 text-sm font-medium hover:underline">
+                                    <button onClick={resetFilters} className="mt-4 text-indigo-600 text-sm font-medium hover:underline">
                                         Reset semua filter
                                     </button>
                                 </div>
@@ -337,7 +337,7 @@ export default function ShopIndex({
                                         <Link
                                             key={product.id}
                                             href={`/shop/${product.slug}`}
-                                            className="bg-white rounded-xl border border-gray-100 hover:shadow-md hover:border-green-200 transition overflow-hidden"
+                                            className="bg-white rounded-xl border border-gray-100 hover:shadow-md hover:border-indigo-200 transition overflow-hidden"
                                         >
                                             <div className="h-44 bg-gray-50 flex items-center justify-center overflow-hidden">
                                                 {product.image ? (
@@ -347,9 +347,9 @@ export default function ShopIndex({
                                                 )}
                                             </div>
                                             <div className="p-3">
-                                                <p className="text-xs text-green-600 font-medium mb-1">{product.category?.name}</p>
+                                                <p className="text-xs text-indigo-600 font-medium mb-1">{product.category?.name}</p>
                                                 <h3 className="text-sm font-semibold text-gray-800 line-clamp-2 leading-tight mb-2">{product.name}</h3>
-                                                <p className="text-green-600 font-bold text-sm">Rp {Number(product.price).toLocaleString("id-ID")}</p>
+                                                <p className="text-indigo-600 font-bold text-sm">Rp {Number(product.price).toLocaleString("id-ID")}</p>
                                             </div>
                                         </Link>
                                     ))}
@@ -365,7 +365,7 @@ export default function ShopIndex({
                                             onClick={() => handlePagination(link.url)}
                                             disabled={!link.url}
                                             className={`px-3 py-1.5 rounded-lg text-xs font-medium ${
-                                                link.active ? "bg-green-500 text-white" : "bg-white border border-gray-200 text-gray-600 hover:bg-gray-50"
+                                                link.active ? "bg-indigo-500 text-white" : "bg-white border border-gray-200 text-gray-600 hover:bg-gray-50"
                                             } disabled:opacity-40`}
                                             dangerouslySetInnerHTML={{ __html: link.label }}
                                         />

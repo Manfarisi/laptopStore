@@ -47,7 +47,7 @@ export default function OrderIndex({ orders, auth, cartCount = 0 }) {
                         </div>
                         <Link
                             href="/shop"
-                            className="bg-green-500 text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-green-600 transition"
+                            className="bg-indo-500 text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-indo-600 transition"
                         >
                             + Belanja Lagi
                         </Link>
@@ -64,7 +64,7 @@ export default function OrderIndex({ orders, auth, cartCount = 0 }) {
                             </p>
                             <Link
                                 href="/shop"
-                                className="bg-green-500 text-white px-8 py-3 rounded-full text-sm font-semibold hover:bg-green-600 transition"
+                                className="bg-indo-500 text-white px-8 py-3 rounded-full text-sm font-semibold hover:bg-indo-600 transition"
                             >
                                 Mulai Belanja
                             </Link>
@@ -114,7 +114,7 @@ export default function OrderIndex({ orders, auth, cartCount = 0 }) {
                                                 {/* Line */}
                                                 <div className="absolute top-3 left-0 right-0 h-0.5 bg-gray-200 z-0">
                                                     <div
-                                                        className="h-full bg-green-500 transition-all duration-500"
+                                                        className="h-full bg-indo-500 transition-all duration-500"
                                                         style={{
                                                             width: `${((statusStep[order.status] - 1) / 3) * 100}%`,
                                                         }}
@@ -152,7 +152,7 @@ export default function OrderIndex({ orders, auth, cartCount = 0 }) {
                                                                 statusStep[
                                                                     order.status
                                                                 ] >= s.step
-                                                                    ? "bg-green-500 border-green-500 text-white"
+                                                                    ? "bg-indo-500 border-indo-500 text-white"
                                                                     : "bg-white border-gray-300 text-gray-300"
                                                             }`}
                                                         >
@@ -238,7 +238,7 @@ export default function OrderIndex({ orders, auth, cartCount = 0 }) {
                                             </p>
                                             <p className="text-sm font-bold text-gray-800 mt-1">
                                                 Total:{" "}
-                                                <span className="text-green-600">
+                                                <span className="text-indo-600">
                                                     Rp{" "}
                                                     {Number(
                                                         order.total_price,

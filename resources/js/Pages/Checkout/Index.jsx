@@ -38,7 +38,7 @@ export default function CheckoutIndex({ carts, total, auth, cartCount = 0 }) {
                                 {/* Alamat Pengiriman */}
                                 <div className="bg-white rounded-xl border border-gray-200 overflow-hidden">
                                     <div className="px-5 py-3 border-b border-gray-100 flex items-center gap-2">
-                                        <span className="text-green-600">📍</span>
+                                        <span className="text-indigo-600">📍</span>
                                         <span className="text-sm font-bold text-gray-800">Alamat Pengiriman</span>
                                     </div>
 
@@ -53,7 +53,7 @@ export default function CheckoutIndex({ carts, total, auth, cartCount = 0 }) {
                                                     type="text"
                                                     value={data.shipping_name}
                                                     onChange={e => setData('shipping_name', e.target.value)}
-                                                    className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-green-400"
+                                                    className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-400"
                                                     placeholder="Nama lengkap penerima"
                                                 />
                                                 {errors.shipping_name && <p className="text-xs text-red-500 mt-1">{errors.shipping_name}</p>}
@@ -66,7 +66,7 @@ export default function CheckoutIndex({ carts, total, auth, cartCount = 0 }) {
                                                     type="text"
                                                     value={data.shipping_phone}
                                                     onChange={e => setData('shipping_phone', e.target.value)}
-                                                    className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-green-400"
+                                                    className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-400"
                                                     placeholder="08xxxxxxxxxx"
                                                 />
                                                 {errors.shipping_phone && <p className="text-xs text-red-500 mt-1">{errors.shipping_phone}</p>}
@@ -82,7 +82,7 @@ export default function CheckoutIndex({ carts, total, auth, cartCount = 0 }) {
                                                 value={data.shipping_address}
                                                 onChange={e => setData('shipping_address', e.target.value)}
                                                 rows={3}
-                                                className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-green-400"
+                                                className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-400"
                                                 placeholder="Jalan, RT/RW, Kelurahan, Kecamatan..."
                                             />
                                             {errors.shipping_address && <p className="text-xs text-red-500 mt-1">{errors.shipping_address}</p>}
@@ -98,7 +98,7 @@ export default function CheckoutIndex({ carts, total, auth, cartCount = 0 }) {
                                                     type="text"
                                                     value={data.shipping_city}
                                                     onChange={e => setData('shipping_city', e.target.value)}
-                                                    className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-green-400"
+                                                    className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-400"
                                                     placeholder="Jakarta, Bandung, Surabaya..."
                                                 />
                                                 {errors.shipping_city && <p className="text-xs text-red-500 mt-1">{errors.shipping_city}</p>}
@@ -111,7 +111,7 @@ export default function CheckoutIndex({ carts, total, auth, cartCount = 0 }) {
                                                     type="text"
                                                     value={data.shipping_postal_code}
                                                     onChange={e => setData('shipping_postal_code', e.target.value)}
-                                                    className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-green-400"
+                                                    className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-400"
                                                     placeholder="12345"
                                                 />
                                                 {errors.shipping_postal_code && <p className="text-xs text-red-500 mt-1">{errors.shipping_postal_code}</p>}
@@ -127,7 +127,7 @@ export default function CheckoutIndex({ carts, total, auth, cartCount = 0 }) {
                                                 value={data.notes}
                                                 onChange={e => setData('notes', e.target.value)}
                                                 rows={2}
-                                                className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-green-400"
+                                                className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-400"
                                                 placeholder="Catatan untuk penjual..."
                                             />
                                         </div>
@@ -137,7 +137,7 @@ export default function CheckoutIndex({ carts, total, auth, cartCount = 0 }) {
                                 {/* Produk yang dipesan */}
                                 <div className="bg-white rounded-xl border border-gray-200 overflow-hidden">
                                     <div className="px-5 py-3 border-b border-gray-100 flex items-center gap-2">
-                                        <span className="text-green-600">📦</span>
+                                        <span className="text-indigo-600">📦</span>
                                         <span className="text-sm font-bold text-gray-800">Produk Dipesan</span>
                                     </div>
                                     <div className="divide-y divide-gray-50">
@@ -183,7 +183,7 @@ export default function CheckoutIndex({ carts, total, auth, cartCount = 0 }) {
                                         </div>
                                         <div className="flex justify-between text-sm">
                                             <span className="text-gray-500">Ongkos Kirim</span>
-                                            <span className="text-green-600 font-semibold">Gratis</span>
+                                            <span className="text-indigo-600 font-semibold">Gratis</span>
                                         </div>
                                         <div className="border-t border-dashed border-gray-200 pt-3">
                                             <div className="flex justify-between items-center">
@@ -197,7 +197,7 @@ export default function CheckoutIndex({ carts, total, auth, cartCount = 0 }) {
                                         <button
                                             type="submit"
                                             disabled={processing}
-                                            className="w-full bg-green-500 text-white py-3 rounded-full font-bold text-sm hover:bg-green-600 disabled:opacity-50 transition mt-2"
+                                            className="w-full bg-indigo-500 text-white py-3 rounded-full font-bold text-sm hover:bg-indigo-600 disabled:opacity-50 transition mt-2"
                                         >
                                             {processing ? 'Memproses...' : 'Buat Pesanan'}
                                         </button>

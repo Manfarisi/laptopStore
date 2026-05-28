@@ -59,7 +59,7 @@ export default function CartIndex({ carts = [], total = 0, auth, cartCount = 0 }
                             </p>
                             <Link
                                 href="/shop"
-                                className="bg-green-500 text-white px-8 py-3 rounded-full text-sm font-semibold hover:bg-green-600 transition"
+                                className="bg-indigo-500 text-white px-8 py-3 rounded-full text-sm font-semibold hover:bg-indigo-600 transition"
                             >
                                 Mulai Belanja
                             </Link>
@@ -76,7 +76,7 @@ export default function CartIndex({ carts = [], total = 0, auth, cartCount = 0 }
                                             checked.length === carts.length
                                         }
                                         onChange={toggleAll}
-                                        className="w-4 h-4 accent-green-500 cursor-pointer"
+                                        className="w-4 h-4 accent-indigo-500 cursor-pointer"
                                     />
                                     <span className="text-sm font-semibold text-gray-700">
                                         Pilih Semua ({carts.length})
@@ -99,7 +99,7 @@ export default function CartIndex({ carts = [], total = 0, auth, cartCount = 0 }
                                 <div className="bg-white rounded-xl border border-gray-200 overflow-hidden">
                                     {/* Store Header */}
                                     <div className="px-5 py-3 border-b border-gray-100 flex items-center gap-2">
-                                        <span className="text-green-600">
+                                        <span className="text-indigo-600">
                                             🏪
                                         </span>
                                         <span className="text-sm font-bold text-gray-800">
@@ -126,7 +126,7 @@ export default function CartIndex({ carts = [], total = 0, auth, cartCount = 0 }
                                                     onChange={() =>
                                                         toggleCheck(cart.id)
                                                     }
-                                                    className="w-4 h-4 accent-green-500 cursor-pointer mt-5"
+                                                    className="w-4 h-4 accent-indigo-500 cursor-pointer mt-5"
                                                 />
 
                                                 {/* Gambar */}
@@ -167,7 +167,7 @@ export default function CartIndex({ carts = [], total = 0, auth, cartCount = 0 }
                                                                 cart.product
                                                                     .condition ===
                                                                 "Baru"
-                                                                    ? "bg-green-50 text-green-700"
+                                                                    ? "bg-indigo-50 text-indigo-700"
                                                                     : "bg-orange-50 text-orange-700"
                                                             }`}
                                                         >
@@ -221,7 +221,7 @@ export default function CartIndex({ carts = [], total = 0, auth, cartCount = 0 }
                                                                                 1,
                                                                         )
                                                                     }
-                                                                    className="w-8 h-8 flex items-center justify-center text-green-600 hover:bg-gray-100 transition font-bold"
+                                                                    className="w-8 h-8 flex items-center justify-center text-indigo-600 hover:bg-gray-100 transition font-bold"
                                                                 >
                                                                     −
                                                                 </button>
@@ -238,7 +238,7 @@ export default function CartIndex({ carts = [], total = 0, auth, cartCount = 0 }
                                                                                 1,
                                                                         )
                                                                     }
-                                                                    className="w-8 h-8 flex items-center justify-center text-green-600 hover:bg-gray-100 transition font-bold"
+                                                                    className="w-8 h-8 flex items-center justify-center text-indigo-600 hover:bg-gray-100 transition font-bold"
                                                                 >
                                                                     +
                                                                 </button>
@@ -249,7 +249,7 @@ export default function CartIndex({ carts = [], total = 0, auth, cartCount = 0 }
                                                     {/* Subtotal */}
                                                     <p className="text-xs text-gray-400 mt-1 text-right">
                                                         Subtotal:{" "}
-                                                        <span className="text-green-600 font-semibold">
+                                                        <span className="text-indigo-600 font-semibold">
                                                             Rp{" "}
                                                             {(
                                                                 Number(
@@ -271,7 +271,7 @@ export default function CartIndex({ carts = [], total = 0, auth, cartCount = 0 }
                                 {/* Lanjut Belanja */}
                                 <Link
                                     href="/shop"
-                                    className="text-sm text-green-600 hover:text-green-800 font-medium flex items-center gap-1"
+                                    className="text-sm text-indigo-600 hover:text-indigo-800 font-medium flex items-center gap-1"
                                 >
                                     ← Lanjut Belanja
                                 </Link>
@@ -306,7 +306,7 @@ export default function CartIndex({ carts = [], total = 0, auth, cartCount = 0 }
                                             <span className="text-gray-500">
                                                 Total Ongkos Kirim
                                             </span>
-                                            <span className="font-semibold text-green-600">
+                                            <span className="font-semibold text-indigo-600">
                                                 Gratis
                                             </span>
                                         </div>
@@ -333,7 +333,7 @@ export default function CartIndex({ carts = [], total = 0, auth, cartCount = 0 }
                                                 router.get("/checkout")
                                             }
                                             disabled={selectedCount === 0}
-                                            className="w-full bg-green-500 text-white py-3 rounded-full font-bold text-sm hover:bg-green-600 disabled:opacity-40 disabled:cursor-not-allowed transition mt-2"
+                                            className="w-full bg-indigo-500 text-white py-3 rounded-full font-bold text-sm hover:bg-indigo-600 disabled:opacity-40 disabled:cursor-not-allowed transition mt-2"
                                         >
                                             Beli ({selectedCount})
                                         </button>
