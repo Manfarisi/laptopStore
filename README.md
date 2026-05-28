@@ -1,17 +1,15 @@
 # 💻 LaptopStore — Toko Laptop Online
 Aplikasi e-commerce toko laptop berbasis web yang dibangun dengan stack Laravel + Inertia.js + React + Filament PHP.
-<img width="1366" height="768" alt="Screenshot (1001)" src="https://github.com/user-attachments/assets/2e11a374-f1a1-4b30-ae8c-1afe79f9ea9f" />
->
-<img width="1366" height="768" alt="Screenshot (1002)" src="https://github.com/user-attachments/assets/7d60c594-77dc-4557-a623-9d4f7cc9b846" /><img width="1366" height="768" alt="Screenshot (998)" src="https://github.com/user-attachments/assets/6cbb26ec-a1dd-4a99-80fc-369137ac984e" />
-<img width="1366" height="768" alt="Screenshot (997)" src="https://github.com/user-attachments/assets/6ba69511-3e64-49b6-ab60-b25086d3ac50" />
-<img width="1366" height="768" alt="Screenshot (996)" src="https://github.com/user-attachments/assets/734ab2d7-4bfe-4b2b-b389-425eda2a6abe" />
-<img width="1366" height="768" alt="Screenshot (995)" src="https://github.com/user-attachments/assets/ff98111e-7886-4faa-bc6a-9694a259fb1e" />
-<img width="1366" height="768" alt="Screenshot (994)" src="https://github.com/user-attachments/assets/41478042-b053-4ff3-a71d-8a3b04eb7370" />
-<img width="1366" height="768" alt="Screenshot (1007)" src="https://github.com/user-attachments/assets/ad751c89-bc57-49c0-8866-319cd92513f7" />
-<img width="1366" height="768" alt="Screenshot (1006)" src="https://github.com/user-attachments/assets/11f67e87-06c5-47fe-be7b-b2ac48d491a7" />
-<img width="1366" height="768" alt="Screenshot (1005)" src="https://github.com/user-attachments/assets/6b4a0fde-9e4e-42a1-8316-f7da5c94e73d" />
-<img width="1366" height="768" alt="Screenshot (1004)" src="https://github.com/user-attachments/assets/30942ed5-2b01-4828-b230-ec2a8914abfb" />
-<img width="1366" height="768" alt="Screenshot (1003)" src="https://github.com/user-attachments/assets/2c27c950-7f2a-4af1-a88c-89270ffde794" />
+<img width="1366" height="768" alt="Screenshot (1007)" src="https://github.com/user-attachments/assets/16e891e6-07fb-403b-aea7-b931e0694de7" />
+<img width="1366" height="768" alt="Screenshot (1006)" src="https://github.com/user-attachments/assets/2d81df7b-458d-45ba-82f0-c788ca7f3663" />
+<img width="1366" height="768" alt="Screenshot (1005)" src="https://github.com/user-attachments/assets/291f2a3b-49bc-497a-9a87-c273862c1619" />
+<img width="1366" height="768" alt="Screenshot (1004)" src="https://github.com/user-attachments/assets/ddd6e545-717d-4a10-b681-a1d7c5f8c137" />
+<img width="1366" height="768" alt="Screenshot (1003)" src="https://github.com/user-attachments/assets/c2bf9993-ed30-497e-be05-d43f1daab7e4" />
+<img width="1366" height="768" alt="Screenshot (1002)" src="https://github.com/user-attachments/assets/b352150a-2117-4ef2-b630-79538ca69c7c" />
+<img width="1366" height="768" alt="Screenshot (1001)" src="https://github.com/user-attachments/assets/26f0c838-9865-49bc-b5dd-8675b1f7f5d0" />
+<img width="1366" height="768" alt="Screenshot (1000)" src="https://github.com/user-attachments/assets/0d47543c-f9d3-433c-b89a-ed929b50760d" />
+<img width="1366" height="768" alt="Screenshot (999)" src="https://github.com/user-attachments/assets/e80e74c3-b6d9-4054-9d4d-272acd5914e7" />
+
 
 
 ---
